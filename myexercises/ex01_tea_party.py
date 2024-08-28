@@ -7,8 +7,6 @@ ___author___ = "730664552"
 def tea_bags()
     """Multiply two numbers together - 2 and number of guests."""
     from operator import mul
-    mul(people:str, num1:int):
-    return 
-# why is it saying num1 is undefined - it was working earlier?
-# defined the function, importated multiplication, but now i'm struggling to get the function defined as i want
-# why doesn't it like the return function? worked well in class
+# got stuck here because I couldn't figure out where the problems were coming from
+    mul(people = int, num1 = int) -> int:
+# I am not sure how to get it to multiply times 2
