@@ -1,12 +1,10 @@
-def double(x: int) -> int:
-    return x * 2
+ys: list[int] = [110, 120]
+for y in ys:
+    print(y)
 
-
-def double_display(y: int):
-    print(y * 2)
-
-
-double_display(2)
-
-if __name__ == "__main__":
-    print(double(3))
+i: int = 0
+ys: list[int] = [110, 120]
+while i < len(ys):
+    y: float = ys[i]
+    print(y)
+    i += 1
